@@ -35,8 +35,7 @@ jobs:
       #
       # Builds the Docker image.
       #
-      - name: Delete
-        run: ./scripts/delete.sh
+
 
     
       - uses: tale/kubectl-action@v1
